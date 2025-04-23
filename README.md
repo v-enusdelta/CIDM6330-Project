@@ -36,3 +36,24 @@ With these you will create Django unittests that demonstrates three Use Cases of
 
 ### Interpreted Requirements
 #### Evolution 0 & 1: Domain Specification and UML Modeling
+Develop a requirements specification document to solve a problem using domain-driven design principals.
+- [ ] Develop a requirements specification document in markdown with the following elements:
+    - [ ] Activity Diagram
+    - [ ] Class Diagram
+    - [ ] Component Diagram
+    - [ ] Sequence Diagram
+    - [ ] State Machine Diagram
+    - [ ] Use Case Diagram
+
+#### Evolution 2: Basic API
+- [ ] Create a class-based ERD in markdown
+- [ ] Create a basic API using FastAPI with the following elements:
+    - [ ] Pydantic models
+    - [ ] CRUD functions
+
+#### Evolution 3 & 4: Django API
+- [ ] Migrate the Basic API to Django Rest Framework or Django Ninja
+
+#### Evolution 5: Implement Tests
+- [ ] Create Gerkin Notation expression tests
+- [ ] Create Django unittests that demonstrate three use cases from the Gerkin statements
