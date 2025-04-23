@@ -28,5 +28,5 @@ The goals of this system are:
 placeholder
 
 ## 4. Specifications
-Activity Diagram
+Activity Diagram  
 ![Activity diagram for steward daily inventory routine](/section1/activity1.png)
