@@ -1,5 +1,5 @@
 # CIDM6330 Final Project - Little Library Tracker
-This repo contains project requirements, descriptions, and code documentation for the SP25 CIDM 6330 final project.
+This repository (repo) contains project requirements, descriptions, and code documentation for the SP25 CIDM 6330 final project.
 
 ## Project Requirements
 Copied from Dr. Babb's Final Project description:
@@ -57,3 +57,15 @@ Develop a requirements specification document to solve a problem using domain-dr
 #### Evolution 5: Implement Tests
 - [ ] Create Gerkin Notation expression tests
 - [ ] Create Django unittests that demonstrate three use cases from the Gerkin statements
+
+## Repo Structure
+To fulfil the project requirements, this repo is split into three sections.
+
+#### Section 1: Requirements Documentation
+Section 1 (`` /section1 ``) contains the requirements document from Evoluation 0/1, ERD from Evolution 2, and Gerkin notation tests from Evolution 5.
+
+#### Section 2: Basic API
+To ensure clarity and separation between the Basic API and the graduated API in Django, section 2 (`` /section2 ``) contains all code for Evolution 2. The ERD in ``/section1`` is used to validate the pydantic models.
+
+#### Section 3: Django API
+Section 3 (`` /section3 ``) contains all code related to Evolutions 3-5. The Gerkin notation tests in ``/section1`` is used to implement the Django unittests.
