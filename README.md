@@ -38,10 +38,10 @@ With these you will create Django unittests that demonstrates three Use Cases of
 #### Evolution 0 & 1: Domain Specification and UML Modeling
 Develop a requirements specification document to solve a problem using domain-driven design principals.
 - [ ] Develop a requirements specification document in markdown with the following elements:
-    - [ ] Activity Diagram
-    - [ ] Class Diagram
+    - [x] Activity Diagram
+    - [x] Class Diagram
     - [ ] Component Diagram
-    - [ ] Sequence Diagram
+    - [x] Sequence Diagram
     - [ ] State Machine Diagram
     - [ ] Use Case Diagram
 
