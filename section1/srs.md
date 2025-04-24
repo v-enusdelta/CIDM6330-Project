@@ -30,3 +30,9 @@ placeholder
 ## 4. Specifications
 Activity Diagram  
 ![Activity diagram for steward daily inventory routine](/section1/activity1.png)
+
+Class Diagram  
+![Class diagram for Book and Catalog classes](/section1/class1.png)
+
+Sequence Diagram  
+![Sequence diagram for steward daily inventory routine](/section1/sequence1.png)
