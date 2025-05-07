@@ -39,3 +39,6 @@ Sequence Diagram
 
 Component Diagram  
 ![Component diagram for little library system overview](/section1/component.png)
+
+State Machine Diagram  
+![State Machine diagram for little library catalog](/section1/statemachine.png)
