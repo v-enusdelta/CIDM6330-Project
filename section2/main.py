@@ -1,39 +1,3 @@
-# Basic API using FastAPI
-
-## Setup Requirements
-
-This project begins with setting up a virtual environment in the main area of this repository. To establish the virtual environment, the following steps were taken:
- 1. Check to see which python is currently being used. The output is used as a method of comparison from initial to final state. ``which python``
- 2. Use a standard command to establish a virtual environment. ``py -m venv .venv``
- 3. Activate the virtual environment. ``source .venv/Scripts/activate``
- 4. Verify that the python in the virtual environment is being used. ``which python``
-
-Next, I updated ``pip`` using the command ``py -m pip install --upgrade pip``.
-
-Finally, I installed FastAPI with the command ``pip install "fastapi[standard]"``. This installation method also installed uvicorn and pydantic packages, which is necessary for this solution.
-
-## Class ERD
-This diagram was used to validate the pydanic model ``Book`` in the ``models.py`` file.  
-![ERD diagram for little library catalog](/section1/erd.png)
-
-## Code
-I began by defining the `Book` model in `models.py`.
-
-```python
-import datetime
-from pydantic import BaseModel
-
-class Book(BaseModel):
-    bookid: int
-    title: str
-    author: str
-    date_donated: datetime.date
-    onshelf: bool = True
-```
-
-Next, I imported the `Book` model into `main.py` and developed prototype CRUD operations.
-
-```python
 from fastapi import FastAPI
 from models import Book
 
@@ -87,7 +51,3 @@ def delete_book(bookid: int):
             del catalog[i]
             return {"message": "Book deleted"}
     return {"error": "Book not found"}
-```
-
-## Execution
-This API can be executed by using the following command: ``uvicode main:app --reload``
