@@ -47,9 +47,9 @@ Develop a requirements specification document to solve a problem using domain-dr
 
 #### Evolution 2: Basic API
 - [x] Create a class-based ERD in markdown
-- [ ] Create a basic API using FastAPI with the following elements:
-    - [ ] Pydantic models
-    - [ ] CRUD functions
+- [x] Create a basic API using FastAPI with the following elements:
+    - [x] Pydantic models
+    - [x] CRUD functions
 
 #### Evolution 3 & 4: Django API
 - [ ] Migrate the Basic API to Django Rest Framework or Django Ninja
