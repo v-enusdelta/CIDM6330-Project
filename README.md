@@ -37,13 +37,13 @@ With these you will create Django unittests that demonstrates three Use Cases of
 ### Interpreted Requirements
 #### Evolution 0 & 1: Domain Specification and UML Modeling
 Develop a requirements specification document to solve a problem using domain-driven design principals.
-- [ ] Develop a requirements specification document in markdown with the following elements:
+- [x] Develop a requirements specification document in markdown with the following elements:
     - [x] Activity Diagram
     - [x] Class Diagram
-    - [ ] Component Diagram
+    - [x] Component Diagram
     - [x] Sequence Diagram
-    - [ ] State Machine Diagram
-    - [ ] Use Case Diagram
+    - [x] State Machine Diagram
+    - [x] Use Case Diagram
 
 #### Evolution 2: Basic API
 - [ ] Create a class-based ERD in markdown
