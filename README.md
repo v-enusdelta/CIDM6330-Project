@@ -46,7 +46,7 @@ Develop a requirements specification document to solve a problem using domain-dr
     - [x] Use Case Diagram
 
 #### Evolution 2: Basic API
-- [ ] Create a class-based ERD in markdown
+- [x] Create a class-based ERD in markdown
 - [ ] Create a basic API using FastAPI with the following elements:
     - [ ] Pydantic models
     - [ ] CRUD functions
