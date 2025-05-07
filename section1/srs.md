@@ -36,3 +36,6 @@ Class Diagram
 
 Sequence Diagram  
 ![Sequence diagram for steward daily inventory routine](/section1/sequence1.png)
+
+Component Diagram  
+![Component diagram for little library system overview](/section1/component.png)
