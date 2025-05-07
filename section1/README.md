@@ -42,3 +42,6 @@ Component Diagram
 
 State Machine Diagram  
 ![State Machine diagram for little library catalog](/section1/statemachine.png)
+
+Use Case Diagram  
+![Use Case diagram for interacting with the physical library](/section1/usecaseuml.png)
